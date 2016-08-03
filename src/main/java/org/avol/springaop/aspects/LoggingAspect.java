@@ -5,13 +5,11 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by Durga on 8/3/2016.
  */
 @Aspect
-//@Component
 public class LoggingAspect {
 
     @Pointcut("execution(* org.avol.springaop.service.SampleService.*())")

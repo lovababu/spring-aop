@@ -13,7 +13,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @EnableAspectJAutoProxy
-//@ComponentScan(basePackages = {"org.avol.springaop"})
 public class AopConfig {
 
     @Bean
